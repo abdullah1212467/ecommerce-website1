@@ -1,0 +1,339 @@
+body{
+    background-color: white;
+    padding: 10px;
+    font-family: arial;
+}
+
+.top-1-2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.add1{
+    height: 25px;
+}
+
+
+.add-1-1{
+    font-size: 17px;
+    margin-left: 8px;
+    margin-top: 2px;
+    color:rgb(255, 255, 255) ;
+}
+
+.top-1{
+    background-color: rgb(255, 255, 255);
+    max-width: 650px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(199, 198, 198);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+@media(max-width:650px){
+    .top-1-3{
+        display: block;
+    }
+    .top-1-3{
+        display: inline-block;
+    }
+    .top-1-2{
+        display: inline-block;
+    }
+    .top-1-1{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        animation-name: hede;
+        animation-duration: 0.5s;
+    }
+    @keyframes hede{
+    0%{
+      
+       color: white;
+    }
+    100%{
+        color:rgb(0, 0, 0) ;
+    }
+}
+    .datels{
+        font-size: 13px;
+        display: block;
+    }
+}
+@media(min-width:651px){
+   
+    .top-1-1{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .datels{
+        display: inline-block;
+    }
+    
+}
+.div-mud{
+    border-radius: 5px;
+    
+}
+
+.maini-div{
+    max-width: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid rgb(199, 198, 198);
+   border-top: none;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.heade{
+    color: rgb(25, 135, 84);
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.heade-2{
+display: inline-block;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+}
+.div-1{
+    width: 150px;
+}
+.img-3-1{
+    width: 100%;
+    height: 100%;
+    animation-name: img;
+    animation-duration: 0.5s;
+    border-radius: 10px;
+}
+  @keyframes img{
+    0%{
+      width: 10%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.div-2{
+    margin-left: 20px;
+}
+.div-4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  animation-name: hede;
+  animation-duration: 0.5s;
+}
+
+.aa1{
+    animation-name: hede;
+    animation-duration: 0.5s;
+}
+  @keyframes hene{
+    0%{
+      
+       color: white;
+    }
+    100%{
+        color:rgb(25, 135, 84) ;
+    }
+}
+.div-5{
+    color: rgb(25, 135, 84);
+    font-size: 18px;
+    margin-bottom: 5px;
+    animation-name:hene ;
+    animation-duration: 0.5s;
+    display: block
+}
+.div-6{
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.div-6-1{
+    font-size: 15px;
+    margin-right: 16px;
+ 
+}
+.button-del{
+    width :135px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 42px;
+    border: none;
+    background-color: rgb(25, 135, 84);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation-name: ele;
+    animation-duration: 0.5s;
+
+}
+  @keyframes ele{
+    0%{
+      
+      background-color: white;
+    }
+    100%{
+        background-color:rgb(25, 135, 84) ;
+    }
+}
+
+.button-del:hover{
+    
+    background-color: rgb(69, 184, 130);
+   
+}
+.button-del:active{
+   
+    background-color: rgb(231, 227, 204);
+border: 1px solid rgb(235, 226, 183);
+color: rgb(0, 0, 0);
+
+}
+.add{
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.r1{
+    margin: auto;
+}
+.re2{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    animation-name: movetope;
+    animation-duration: 0.5s;
+}
+
+
+
+@keyframes movetope{
+    0%{
+       margin-top: 0px; 
+       color: white;
+    }
+    100%{
+        margin-top: 80px;
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.track{
+    width :135px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 42px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(182, 182, 182);
+    margin-top: -5px;
+    animation-name: tracke;
+    animation-duration: 0.5s;
+}
+.track:hover{
+    
+    background-color: rgb(236, 236, 236);
+    
+    border: 1px solid rgb(182, 182, 182);
+}
+  @keyframes tracke{
+    0%{
+      color: white;
+      border:1px solid white;
+    }
+    100%{
+        border: 1px solid rgb(182, 182, 182);
+        color:rgb(0, 0, 0) ;
+    }
+}
+
+.cart-png{
+    width: 20px;
+}
+
+
+/* ///////////?/////////fixed button///////////// */
+.button-trash{
+    height: 40px;
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  rgb(14, 112, 66);  
+    border: 1px solid   rgb(25, 135, 84); 
+    border-radius: 50px;
+    cursor: pointer;
+}
+.ali{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-trash{
+    height: 22px;
+}
+.Reset{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

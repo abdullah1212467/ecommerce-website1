@@ -1,0 +1,215 @@
+.div-1{
+    max-width: 350px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.add1{
+    height: 20px;
+    
+}
+.add-1-1{
+   display:inline-block;
+   margin-left: 5px;
+}
+/* .adding-tocheck{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+} */
+/* @media(max-width:700px){
+    .malana{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media(min-width:701px){
+    .malana{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} */
+.div-2{
+    /* background-color: white; */
+}
+
+.img-321{
+    width: 100%;
+    border-radius: 10px;
+    animation-name: image12;
+    animation-duration: 0.5s;
+}
+
+@keyframes image12{
+    0%{
+     width:  0%; 
+    }
+    100%{
+       width: 100%;
+    }
+}
+
+.div-3{
+    margin-bottom: 20px;
+}
+
+.image-grid{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.img-322{
+    max-height: 100%;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-name: image1;
+    animation-duration: 0.5s;
+    
+}
+@keyframes image1{
+    0%{
+     height: 0%; 
+    }
+    100%{
+       height: 100%;
+    }
+}
+.small-img{
+    
+    width: 100px;
+}
+.img-322:hover{
+   
+    border: 1px solid black;
+    
+}
+.img-322:active{
+   
+    border: 1px solid black;
+    
+}
+.name-1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 79, 45);
+    animation-name:  colore;
+   animation-duration: 0.5s;
+}
+.ratting{
+    font-size: 20px;
+   
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 79, 45);
+    animation-name:  colore;
+   animation-duration: 0.5s;
+}
+
+.price{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 79, 45); 
+    animation-name:  colore;
+   animation-duration: 0.5s;
+}
+.add-to-cart{
+    background-color:rgb(8, 79, 45);
+    border: 1px solid rgb(8, 79, 45);
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation-name:  button;
+   animation-duration:0.5s;
+}
+.add-to-cart:hover{
+    background-color:rgb(55, 119, 88);
+    color: white;
+}
+.add-to-cart:active{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.explain{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   font-size: 25px;
+   margin-top: 80px;
+   margin-bottom: 20px; 
+   color: rgb(8, 79, 45);
+   max-width: 550px;
+   margin-left: auto;
+   margin-right: auto;
+   animation-name: movetope ;
+   animation-duration: 0.5s;
+     /* animation-name:  colore;
+   animation-duration: 1.5s; */
+}
+
+
+@keyframes colore{
+    0%{
+      color: white; 
+    }
+    100%{
+        color: rgb(8, 79, 45);
+    }
+}
+
+
+@keyframes movetope{
+    0%{
+       margin-top: 0px; 
+         color: white; 
+    }
+    100%{
+        margin-top: 80px;
+         color: rgb(8, 79, 45);
+    }
+}
+
+
+@keyframes button{
+    0%{
+       
+         background-color: white; 
+         border: 1px solid white;
+    }
+    100%{
+       
+         background-color: rgb(8, 79, 45);
+         border:  1ps solid rgb(8, 79, 45);
+    }
+}
+
+
+
+
+
+
+
+
+
