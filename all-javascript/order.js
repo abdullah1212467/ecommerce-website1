@@ -44,7 +44,7 @@ ordersummery.forEach((element) => {
                  
                     <button class="button-del add-js"data-ali1="${element.cartel.productId}">
                     <div>
-                        <img class="cart-png" src="/images/icons/cart-icon.png">
+                        <img class="cart-png" src="images/icons/cart-icon.png">
                     </div>
                     <div class="add ">Add to cart</div>    
                     </button></div>
@@ -187,6 +187,7 @@ document.querySelectorAll('.track-js').forEach((all , i1)=>{
 
 
 // console.log(tracpackage.length)
+
 
 
 
